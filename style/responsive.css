@@ -38,11 +38,12 @@
         flex-direction: column;
         gap: 30px;
     }
-    .popular-tour{
+
+    .popular-tour {
         max-width: 100%;
     }
-    
-    .popular-tour-image{
+
+    .popular-tour-image {
         max-width: 100%;
     }
 
@@ -55,13 +56,33 @@
     .popular-tour-image img {
         width: 100%;
     }
-    .tour-list ul li{
+
+    .tour-list ul li {
         margin-left: 0px;
     }
+
     .popular-tour button {
         border-radius: 8px;
         background: #FF5400;
         color: #FFF;
         font-size: 1rem;
     }
+
+    /* destination section style */
+    .destination-title {
+        font-size: 1.25rem;
+    }
+    .destination-description{
+        font-size: 0.8rem;
+    }
+    .destination-image .row-1{
+        grid-template-columns: 1fr;
+    }
+    .destination-image .row-2{
+        grid-template-columns: 1fr;
+    }
+    .destination-image .row-3{
+        grid-template-columns: 1fr;
+    }
+
 }
