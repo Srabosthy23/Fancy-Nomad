@@ -5,7 +5,7 @@ body {
 
 /* MAIN SECTION */
 main {
-    margin: 50px 80px;
+    margin: 70px 100px;
 }
 
 /* BANNER SECTION STYLE */
@@ -13,7 +13,7 @@ main {
     border-radius: 16px;
     background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png');
     background-size: cover;
-    background-repeat: no-repeat    ;
+    background-repeat: no-repeat;
     background-position: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -39,7 +39,7 @@ main {
     display: flex;
     width: 50%;
     margin: auto;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-top: 60px;
 }
 
@@ -51,7 +51,7 @@ main {
     border: 0;
 }
 
-.banner .input-field  .button {
+.banner .input-field .button {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -61,3 +61,56 @@ main {
     border: 0;
 }
 
+/* POPULAR TOUR SECTION STYLE */
+.popular-tour-section {
+    margin-top: 70px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.tour-title {
+    color: #131318;
+    /* text-align: center; */
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.tour-description,
+.tour-list {
+    color: rgba(19, 19, 24, 0.70);
+    margin-top: 20px;
+}
+
+.tour-description{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.tour-list ul li {
+    margin-top: 20px;
+}
+
+.tour-conclusion {
+    color: #5A5A5D;
+    margin-top: 30px;
+}
+
+.popular-tour button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: 0;
+    padding: 14px 34px;
+    margin-top: 30px;
+}
+
+.popular-tour{
+    max-width: 50%;
+}
+
+.popular-tour-image{
+    max-width: 50%;
+}

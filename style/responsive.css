@@ -1,25 +1,67 @@
 @media screen and (max-width: 600px) {
     main {
-        margin: 20px 20px;
+        margin: 10px 10px;
     }
+
+    /* Banner section */
     .banner {
         border-radius: 16px;
         padding-top: 20px;
         padding-bottom: 20px;
+        /* width: 60vw; */
     }
+
     .banner .banner-title {
         text-align: center;
         font-size: 1.3rem;
     }
-    .banner .banner-description{
+
+    .banner .banner-description {
         font-size: 0.8rem;
         margin-top: 30px;
     }
+
     .banner .input-field {
         flex-direction: column;
         gap: 16px;
         width: 70%;
         margin-top: 30px;
         /* margin-top: 60px; */
+    }
+
+    /* popular tour section */
+    .tour-title {
+        font-size: 1.25rem;
+    }
+
+    .popular-tour-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .popular-tour{
+        max-width: 100%;
+    }
+    
+    .popular-tour-image{
+        max-width: 100%;
+    }
+
+    .tour-description,
+    .tour-list,
+    .tour-conclusion {
+        font-size: 0.8rem;
+    }
+
+    .popular-tour-image img {
+        width: 100%;
+    }
+    .tour-list ul li{
+        margin-left: 0px;
+    }
+    .popular-tour button {
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        font-size: 1rem;
     }
 }
