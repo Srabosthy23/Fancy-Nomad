@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+    main {
+        margin: 20px 20px;
+    }
+    .banner {
+        border-radius: 16px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .banner .banner-title {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .banner .banner-description{
+        font-size: 0.8rem;
+        margin-top: 30px;
+    }
+    .banner .input-field {
+        flex-direction: column;
+        gap: 16px;
+        width: 70%;
+        margin-top: 30px;
+        /* margin-top: 60px; */
+    }
+}
