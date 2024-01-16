@@ -27,6 +27,7 @@
         border-radius: 16px;
         padding-top: 20px;
         padding-bottom: 20px;
+        height: 100%;
         /* width: 60vw; */
     }
 
@@ -45,8 +46,7 @@
         flex-direction: column;
         gap: 16px;
         width: 70%;
-        margin-top: 30px;
-        /* margin-top: 60px; */
+        margin-top: 50px;
     }
 
     /* popular tour section */
