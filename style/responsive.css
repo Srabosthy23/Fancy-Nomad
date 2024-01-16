@@ -159,29 +159,24 @@
     /* Newsletter section */
     .newsletter {
         flex-direction: column;
-
     }
 
-    .newsletter-content {
-       width: 65%;
+    .newsletter-content{
+        width: 80%;
+    }
+    .newsletter-content input{
+        width: 70%;
+    }
+    .newsletter-content button{
+        width: 60%;
     }
 
-    .newsletter-image {
-        width: 85%;
-        height: 100%;
-        position: relative;
+    .newsletter-image{
+        max-width: 100%;
     }
 
     .newsletter-image .travel {
-        width: 250px;
-        height: 100px;
-        padding: 10px;
-        position: absolute;
-        right: 10px;
-        bottom: 50px;
-    }
-    .newsletter-image .travel h2 , p{
-        font-size: 1rem;
+        display: none;
     }
 
     /* FOOTER SECTION */
