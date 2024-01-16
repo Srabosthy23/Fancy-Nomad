@@ -1,6 +1,25 @@
 @media screen and (max-width: 600px) {
-    main {
+
+    main,
+    header {
         margin: 10px 10px;
+    }
+
+    .nav-bar .nav-title {
+        font-size: 1.25rem;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .nav-right .icon-bar {
+        display: inline;
+    }
+
+    .nav-left-heading img {
+        height: 30px;
+        margin-top: 15px;
     }
 
     /* Banner section */
@@ -37,14 +56,15 @@
     .popular-tour-section {
         flex-direction: column;
         gap: 30px;
+        max-height: 1000px;
     }
 
     .popular-tour {
-        max-width: 100%;
+        width: 100%;
     }
 
     .popular-tour-image {
-        max-width: 100%;
+        width: 100%;
     }
 
     .tour-description,
@@ -57,9 +77,6 @@
         width: 100%;
     }
 
-    .tour-list ul li {
-        margin-left: 0px;
-    }
 
     .popular-tour button {
         border-radius: 8px;
@@ -69,20 +86,55 @@
     }
 
     /* destination section style */
+
     .destination-title {
         font-size: 1.25rem;
     }
-    .destination-description{
+
+    .destination-description {
         font-size: 0.8rem;
     }
-    .destination-image .row-1{
-        grid-template-columns: 1fr;
-    }
-    .destination-image .row-2{
-        grid-template-columns: 1fr;
-    }
-    .destination-image .row-3{
+
+    .destination-image .row-1,
+    .destination-image .row-2,
+    .destination-image .row-3 {
         grid-template-columns: 1fr;
     }
 
+
+
+
+    /* WHY CHOOSE US DESTINATION */
+    .choose .choose-title {
+        font-size: 1.25rem;
+    }
+
+    .choose .choose-description {
+        font-size: 0.8rem;
+    }
+
+    .choose-container .choose-container1 {
+        flex-direction: column;
+    }
+
+    .choose-container1-title,
+    .choose-container1-title2,
+    .choose-container2-title {
+        font-size: 1.25rem;
+    }
+
+    .choose-container1-description,
+    .choose-container1-description2,
+    .choose-container2-description {
+        font-size: 0.8rem;
+    }
+
+    .choose-container img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .container-design3 {
+        max-width: 100%;
+    }
 }

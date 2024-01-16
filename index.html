@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/responsive.css">
@@ -18,20 +22,41 @@
 
 <body>
     <header>
-
+        <nav>
+            <div class="nav-bar">
+                <div class="nav-left">
+                    <div class="nav-left-heading">
+                        <img src="./Images/icon.png" alt="">
+                        <h2 class="nav-title">Fancy <span>Nomad</span></h2>
+                    </div>
+                </div>
+                
+                <div class="nav-right">
+                    <div class="icon-bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul class="nav-list">
+                        <li id="home">Home</li>
+                        <li>Packages</li>
+                        <li>Testimonial</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
         <!-- BANNER SECTION -->
         <div class="banner">
             <h2 class="banner-title">Explore Your Travel</h2>
-            <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor
-                adipiscing. In et odio <br> enim ac quis sapien urna eu phasellus.</p>
+            <p class="banner-description">Perhaps travel cannot prevent bigotry, but by demonstrating that all peoples cry, laugh, eat, worry, and die, <br> it can introduce the idea that if we try and understand each other, we may even become friends.</p>
             <div class="input-field">
                 <input class="input-name" placeholder="Where go" type="text">
-                <input class="input-name" id="img1" placeholder="When" type="text">
+                <input class="input-name" placeholder="When"  type="text">
                 <input class="input-name" placeholder="Select Type" type="text">
-                <input class="button" type="button" value="Find Now">
+                <input class="button" id="search" type="button" value="Find Now">
             </div>
         </div>
 
@@ -39,20 +64,17 @@
         <div class="popular-tour-section">
             <div class="popular-tour">
                 <h2 class="tour-title">Our Popular Tours</h2>
-                <p class="tour-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
-                    odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <p class="tour-description">Traveling is a brutality. It forces you to trust strangers and to lose sight of all that familiar comfort of home and friends. You are constantly off balance.</p>
                 <div class="tour-list">
                     <ul>
-                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
-                            erat at .</li>
-                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
-                            suspendisse nullam.</li>
-                        <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                        <li>Travel is  fatal to prejudice, bigotry, and narrow mindedness, and many of our people need it sorely on these accounts.</li>
+
+                        <li>It liberates the vandal to travel — you never saw a bigoted, opinionated, stubborn, narrow-minded, self-conceited, almighty mean man in your life.</li>
+
+                        <li>Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts, it even breaks your heart. But that’s okay. The journey changes you; it should change you.</li>
                     </ul>
                 </div>
-                <p class="tour-conclusion">Amet consectetur. Vulputate commodo felis molestie risus
-                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
-                    natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                <p class="tour-conclusion">Traveling is a brutality. It forces you to trust strangers and to lose sight of all that familiar comfort of home and friends. You are constantly off balance. Nothing is yours except the essential things: air, sleep, dreams, sea, the sky – all things tending towards the eternal or what we imagine of it. </p>
                 <button>Read More</button>
             </div>
 
@@ -62,43 +84,136 @@
         </div>
 
         <!-- CHOOSE YOUR DESTINATION SECTION -->
-        <div class="destination">
-            <h2 class="destination-title">Choose Your Destination</h2>
-            <p class="destination-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
+        <div class="destination-section">
+            <div class="destination">
+                <h2 class="destination-title">Choose Your Destination</h2>
+                <p class="destination-description">Remember that happiness is a way of travel – not a destination. The most beautiful in the world is, of course, the world itself. <br> We travel, some of us forever, to seek other states, other lives, other souls.</p>
+            </div>
+            <div class="destination-image">
+                <div class="row-1">
+                    <div class="image-container">
+                        <img src="./Images/maldiv.png" alt="">
+                        <div class="image-text1">Maldives</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="./Images/indonesia.png" alt="">
+                        <div class="image-text1">Indonesia</div>
+                    </div>
+                </div>
+                <div class="row-2">
+                    <div class="image-container">
+                        <img src="./Images/srilanka.png" alt="">
+                        <div class="image-text2">Srilanka</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="./Images/america.png" alt="">
+                        <div class="image-text2">North America</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="./Images/kashmir.png" alt="">
+                        <div class="image-text2">Kashmir</div>
+                    </div>
+                </div>
+                <div class="row-3">
+                    <div class="image-container">
+                        <img src="./Images/bangladesh.png" alt="">
+                        <div class="image-text3">Bangladesh</div>
+                    </div>
+                    <div class="image-container">
+                        <img src="./Images/bandarban.png" alt="">
+                        <div class="image-text3">Bandarban</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="destination-image">
-            <div class="row-1">
-                <div>
-                    <img src="./Images/maldiv.png" alt="">
+
+        <!-- WHY CHOOSE US SECTION -->
+        <div class="choose hide">
+            <h2 class="choose-title">Why Choose Us</h2>
+            <p class="choose-description">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit
+                massa. Sodales dictumst nec nibh pellentesque.</p>
+            <div class="choose-container">
+                <div class="choose-container1">
+                    <div class="container-design1">
+                        <img src="./Images/hotel.svg" alt="">
+                        <h2 class="choose-container1-title">Handpicked Hotels</h2>
+                        <p class="choose-container1-description">Amet consectetur. Vulputate commodo felis molestie
+                            risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                            adipiscing risus natoque aliquet. </p>
+                    </div>
+                    <div class="container-design2">
+                        <img src="./Images/map.svg" alt="">
+                        <h2 class="choose-container1-title2">World Class Service</h2>
+                        <p class="choose-container1-description2">Amet consectetur. Vulputate commodo felis molestie
+                            risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                            adipiscing risus natoque aliquet. </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./Images/indonesia.png" alt="">
+                <div class="choose-container2">
+                    <div class="container-design3">
+                        <img src="./Images/price-tag.svg" alt="">
+                        <h2 class="choose-container2-title">Best Price Guarantee</h2>
+                        <p class="choose-container2-description">Amet consectetur. Vulputate commodo felis molestie
+                            risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant
+                            adipiscing risus natoque aliquet. </p>
+                    </div>
                 </div>
             </div>
-            <div class="row-2">
-                <div>
-                    <img src="./Images/srilanka.png" alt="">
-                </div>
-                <div>
-                    <img src="./Images/america.png" alt="">
-                </div>
-                <div>
-                    <img src="./Images/kashmir.png" alt="">
+        </div>
+
+        <!-- NEWSLETTER SECTION -->
+        <div class="newsletter hide">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Newsletter</h2>
+                <p class="newsletter-description">Get your daily dose of travel news & tips. Sign up today!</p>
+                <input placeholder="Enter your name" type="text">
+                <br>
+                <input type="email" placeholder="Enter your email" name="" id="">
+                <br>
+                <button>Subscribe</button>
+            </div>
+            <div class="newsletter-image">
+                <img src="./Images/newsletter-img.png" alt="">
+                <div class="travel">
+                    <h2>Travel.com</h2>
+                    <p>Save up to 70%</p>
                 </div>
             </div>
-            <div class="row-3">
-                <div>
-                    <img src="./Images/bangladesh.png" alt="">
-                </div>
-                <div>
-                    <img src="./Images/bandarban.png" alt="">
-                </div>
-            </div>
+        </div>
+
+        <!-- OFFER SECTION -->
+        <div class="offer hide">
+            <h2 class="offer-title">Big January sale: <br> Get 25% off or <br> more</h2>
+            <p class="offer-description">Start the new year on a bright note. Make new <br> memories with a last-minute
+                getaway and save <br> 25% or more with Member Prices until Jan 31.</p>
+            <button class="book">Book now</button>
         </div>
     </main>
 
-    <footer>
-
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section hide">
+        <div class="footer">
+            <div class="footer-head">
+                <img src="./Images/icon.png" alt="">
+                <h2 class="footer-title">Fancy <span>Nomad</span> </h2>
+            </div>
+        </div>
+        <div>
+            <p class="footer-description">Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit
+                orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam. </p>
+        </div>
+        <div class="footer-icon-section">
+            <div class="footer-icon">
+                <img src="./Images/twitter.png" alt="">
+                <img src="./Images/fb.png" alt="">
+                <img src="./Images/insta.png" alt="">
+                <img src="./Images/github.png" alt="">
+            </div>
+        </div>
+        <hr>
+        <div class="footer-end">
+            <p>2017, All Rights Reserved.</p>
+        </div>
     </footer>
 </body>
 
