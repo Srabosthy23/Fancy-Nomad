@@ -119,7 +119,7 @@ header {
     display: flex;
     gap: 100px;
     justify-content: space-between;
-    max-height: 500px;
+    max-height: 550px;
 }
 
 .tour-title {
@@ -328,14 +328,46 @@ header {
     justify-content: center;
 }
 
+/* OFER SECTION STYLE */
+.offer {
+    background-image: url('../Images/offer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 55vh;
+    padding: 60px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.offer .offer-title {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.offer .offer-description {
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.offer button {
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 15px;
+    border: 0;
+}
+
 /* NEWSLETTER SECTION */
 .newsletter {
     margin-top: 70px;
     display: flex;
-    /* justify-content: space-between; */
     gap: 24px;
-    position: relative;
-    /* border: 2px solid red; */
 }
 
 .newsletter-content {
@@ -348,9 +380,8 @@ header {
 }
 
 .newsletter-image {
-    /* border: 2px solid blue; */
     width: 60%;
-    /* position: relative; */
+    position: relative;
 }
 
 .newsletter-image img {
@@ -419,41 +450,6 @@ header {
     text-align: center;
     margin: 0;
 }
-
-/* OFER SECTION STYLE */
-.offer {
-    background-image: url('../Images/offer.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 55vh;
-    padding: 60px;
-    margin-bottom: 90px;
-}
-
-.offer .offer-title {
-    color: #FFF;
-    font-size: 4rem;
-    font-weight: 800;
-    margin: 0;
-}
-
-.offer .offer-description {
-    color: #FFF;
-    font-size: 1.5rem;
-}
-
-.offer button {
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding: 15px;
-    border: 0;
-}
-
 
 
 /* FOOTER SECTION STYLE */
